@@ -61,7 +61,7 @@ The target model performance is 75%. This is already achieved before even experi
       
 ![Alt text](image_results/Optimization_1.png)
 
-    - For the 1st optimization attempt, i decided to change the number of neurons in both hidden layers and reduce the number of epochs to 50. The results were very successful as the accuracy rate went up to 99.9%. Perhaps, the increased complexity from adding more neurons in each hidden layer helped the model learn more complex patterns, which further increase the accuracy. It also looks like the epoch reduction didn't have too much of an effect in the performance of the model. 
+For the 1st optimization attempt, i decided to change the number of neurons in both hidden layers and reduce the number of epochs to 50. The results were very successful as the accuracy rate went up to 99.9%. Perhaps, the increased complexity from adding more neurons in each hidden layer helped the model learn more complex patterns, which further increase the accuracy. It also looks like the epoch reduction didn't have too much of an effect in the performance of the model. 
 
 2) Model 2:
     - Units: 44
@@ -74,7 +74,7 @@ The target model performance is 75%. This is already achieved before even experi
       
 ![Alt text](image_results/Optimization_2.png)
 
-    - The 2nd optimization attempt also yielded a very high accuracy score at 99.9%. However, it looks like the loss slight increased bt 0.0005 from the 1st optimization attempt. In this model, we reduced the number of hiddenlayers to 1 and changed the activation function to tanh. The number of neurons remained the same as the pre optimization model at 1. The number of epochs also remained the same as the pre optimization model. It appears that despite reducing the number of hidden layers, the accuracy rate still was higher than the preoptimization model. This suggests that certain activation functions can improve the performance, in this case Tanh because the input data is more classified, therefore nonlinear. 
+The 2nd optimization attempt also yielded a very high accuracy score at 99.9%. However, it looks like the loss slight increased bt 0.0005 from the 1st optimization attempt. In this model, we reduced the number of hiddenlayers to 1 and changed the activation function to tanh. The number of neurons remained the same as the pre optimization model at 1. The number of epochs also remained the same as the pre optimization model. It appears that despite reducing the number of hidden layers, the accuracy rate still was higher than the preoptimization model. This suggests that certain activation functions can improve the performance, in this case Tanh because the input data is more classified, therefore nonlinear. 
 
 3) Model 3:
     - Units: 44
@@ -87,7 +87,7 @@ The target model performance is 75%. This is already achieved before even experi
       
 ![Alt text](image_results/Optimization_3.png)
 
-    - For the 3rd optimization attempt, I wanted to confirm the difference in performance between the activation functions ReLU and Tanh. Therefore I changed the activation function back to ReLU and increase the epochs to 200. The results yielded to an accuracy of 94.75% and a loss of 0.1766. It looks like the Tanh function is indeed better suited for this specific model. Also, the increased number of epochs wasn't a benefit, but rather a drawback in the performance of the model. It looks the increasing the number of epochs here created an overfitting problem that reduced the performance of the model. 
+For the 3rd optimization attempt, I wanted to confirm the difference in performance between the activation functions ReLU and Tanh. Therefore I changed the activation function back to ReLU and increase the epochs to 200. The results yielded to an accuracy of 94.75% and a loss of 0.1766. It looks like the Tanh function is indeed better suited for this specific model. Also, the increased number of epochs wasn't a benefit, but rather a drawback in the performance of the model. It looks the increasing the number of epochs here created an overfitting problem that reduced the performance of the model. 
 
 
 ## Summary 
