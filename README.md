@@ -61,7 +61,7 @@ The target model performance is 75%. This is already achieved before even experi
       
 ![Alt text](image_results/Optimization_1.png)
 
-For the 1st optimization attempt, i decided to change the number of neurons in both hidden layers and reduce the number of epochs to 50. The results were very successful as the accuracy rate went up to 99.9%. Perhaps, the increased complexity from adding more neurons in each hidden layer helped the model learn more complex patterns, which further increase the accuracy. It also looks like the epoch reduction didn't have too much of an effect in the performance of the model. 
+For the 1st optimization attempt, I decided to change the number of neurons in both hidden layers and reduce the number of epochs to 50. The results were very successful as the accuracy rate went up to 99.9%. Perhaps, the increased complexity from adding more neurons in each hidden layer helped the model learn more complex patterns, which further increase the accuracy. It also looks like the epoch reduction didn't have too much of an effect in the performance of the model. 
 
 2) Model 2:
     - Units: 44
